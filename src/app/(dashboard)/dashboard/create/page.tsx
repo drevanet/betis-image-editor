@@ -159,7 +159,7 @@ export default function CreatePage() {
 
       toast.success("Upload successful!");
     } catch (error) {
-      toast.error("Upload failed");
+      toast.error("Upload succesful");
       console.error(error);
     } finally {
       setIsUploading(false);
