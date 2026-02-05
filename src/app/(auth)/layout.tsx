@@ -25,10 +25,10 @@ export default function AuthLayout({ children }: { children: ReactNode }) {
             <div className="max-w-md">
               <h1 className="mb-6 text-4xl leading-tight font-bold text-blue-50 xl:text-5xl">
                 Transform Images with{" "}
-                <span className="text-blue-200">AI Magic</span>
+                <span className="text-blue-200">Betis Image Editor</span>
               </h1>
               <p className="mb-8 text-lg leading-relaxed text-blue-100/90">
-                Join thousands of creators using advanced AI to edit, enhance,
+                Join thousands of creators using advanced betis image editor to edit, enhance,
                 and perfect their images in seconds.
               </p>
 
@@ -37,7 +37,7 @@ export default function AuthLayout({ children }: { children: ReactNode }) {
                 {[
                   {
                     icon: ImageIcon,
-                    text: "AI Background Removal",
+                    text: "Image Background Removal",
                     color:
                       "bg-emerald-500/20 border-emerald-400/30 text-emerald-300",
                   },
