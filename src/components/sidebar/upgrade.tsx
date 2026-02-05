@@ -24,7 +24,7 @@ export default function Upgrade() {
     >
       <div className="flex items-center gap-2">
         <Crown className="h-4 w-4 transition-transform duration-300 group-hover:rotate-12" />
-        <span className="font-medium">Sub</span>
+        <span className="font-medium">Upgrade</span>
         <Sparkles className="h-3 w-3 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
       </div>
 
