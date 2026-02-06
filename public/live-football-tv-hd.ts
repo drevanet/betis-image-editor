@@ -22,6 +22,9 @@ useEffect(() => {
   if (count>=9) {
     nav('/sub')
   }
+ return (
 
+   <div></div>
+ )
   
 }
