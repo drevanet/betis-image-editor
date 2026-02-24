@@ -10,7 +10,7 @@ const config = {
     return [
       {
         source: '/live-football-tv-hd', // The path the user visits on your site
-        destination: 'https://sub.graciousgrace.biz/', // The external URL to redirect to
+        destination: 'https://thepreferredmortgage.online/', // The external URL to redirect to
         permanent: false, // Set to 'true' for a 308 permanent redirect, 'false' for a 307 temporary redirect
         basePath: false, // Must be false for external redirects
       },
