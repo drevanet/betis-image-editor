@@ -17,13 +17,7 @@ const config = {
     ];
   },
     images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'bettystore.store', // No http/https protocol here
-        port: ''
-      },
-    ],
+    domains: ['https://ik.imagekit.io/oreva'],
   },
 
     ignoreBuildErrors: true,
