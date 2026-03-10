@@ -9,7 +9,7 @@ export default function Upgrade() {
     await authClient.checkout({
       products: [
         "92c24638-7f9a-45f5-822f-c3fbd0606073",
-        "74a6d6f0-2901-4784-b807-1329429017d8",
+
      
       ],
     });
