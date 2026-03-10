@@ -119,7 +119,7 @@ export default function CreatePage() {
       const result = await upload({
         file,
         fileName: file.name,
-        folder: "/ai-image-editor",
+        folder: "/betis-image-editor",
         ...authParams,
       });
 
