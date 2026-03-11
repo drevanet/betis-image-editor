@@ -121,6 +121,7 @@ export default function CreatePage() {
         fileName: file.name,
         
         ...authParams,
+        useUniqueFileName: true 
       });
 
       const uploadedData = {
