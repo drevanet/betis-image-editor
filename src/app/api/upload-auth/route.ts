@@ -7,7 +7,7 @@ export async function GET() {
     const { token, expire, signature } = getUploadAuthParams({
       privateKey: env.IMAGEKIT_PRIVATE_KEY,
       publicKey: env.IMAGEKIT_PUBLIC_KEY,
-      // expire: 30 * 60, // Optional: 30 minutes expiry (default is 1 hour)
+      expire: 60, // Optional: 30 minutes expiry (default is 1 hour)
     });
 
     return Response.json({
