@@ -362,10 +362,10 @@ export default function CreatePage() {
           <div className="border-b border-gray-200 bg-white py-2">
             <div className="mx-auto max-w-7xl text-center">
               <h1 className="from-primary to-primary/70 mb-1 bg-gradient-to-r bg-clip-text text-lg font-bold text-transparent">
-                Create AI Images
+                Create Betis Editor Images
               </h1>
               <p className="text-muted-foreground mx-auto max-w-xl text-xs">
-                Upload and transform images with AI tools
+                Upload and transform images with Betis Image Editor tools
               </p>
             </div>
           </div>
@@ -394,7 +394,7 @@ export default function CreatePage() {
                           Uploading your image
                         </h3>
                         <p className="text-muted-foreground text-sm">
-                          Processing your file with AI magic ✨
+                          Processing your file with Betis Image Editor magic ✨
                         </p>
                         <div className="bg-muted mx-auto mt-4 h-2 w-48 overflow-hidden rounded-full">
                           <div className="bg-primary h-full animate-pulse rounded-full"></div>
@@ -427,7 +427,7 @@ export default function CreatePage() {
 
                         <p className="mx-auto mb-6 max-w-md text-sm leading-relaxed text-gray-600">
                           Click to browse and select your image. Transform it
-                          with powerful AI tools.
+                          with powerful Betis Image Editor tools.
                         </p>
 
                         {/* Supported formats */}
@@ -486,7 +486,7 @@ export default function CreatePage() {
                       <div className="mb-3 flex items-start justify-between">
                         <div>
                           <h3 className="mb-0.5 text-sm font-bold">
-                            AI Effects
+                            Betis Editor Effects
                           </h3>
                           <p className="text-muted-foreground text-xs">
                             Transform your image
@@ -551,7 +551,7 @@ export default function CreatePage() {
                                   ? "Processing..."
                                   : hasTransformation("upscale")
                                     ? "Upscaled ✓"
-                                    : "AI Upscale"}
+                                    : "Image Upscale"}
                               </span>
                               {!hasTransformation("upscale") && (
                                 <span className="text-muted-foreground ml-1 text-xs">
@@ -602,7 +602,7 @@ export default function CreatePage() {
 
                             <div className="rounded-md border border-green-200 bg-green-100/50 p-1.5">
                               <p className="text-xs text-green-800">
-                                ✨ AI crops around specified object in 1:1 ratio
+                                ✨ Crops around specified object in 1:1 ratio
                               </p>
                             </div>
 
@@ -723,7 +723,7 @@ export default function CreatePage() {
                                 <div className="mx-auto h-8 w-8 animate-spin rounded-full border-2 border-white/30 border-t-white"></div>
                               </div>
                               <p className="text-sm font-semibold">
-                                AI Processing...
+                                 Processing...
                               </p>
                               <p className="mt-1 text-xs text-white/80">
                                 Please wait
@@ -896,7 +896,7 @@ export default function CreatePage() {
                 </h3>
                 <p className="text-muted-foreground mx-auto max-w-md text-lg leading-relaxed">
                   Start your creative journey by uploading your first image and
-                  transforming it with AI
+                  transforming it with Betis Image Editor
                 </p>
               </div>
             </div>
