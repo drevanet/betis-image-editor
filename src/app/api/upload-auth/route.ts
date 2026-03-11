@@ -1,7 +1,7 @@
 import { getUploadAuthParams } from "@imagekit/next/server";
 import { env } from "~/env";
-export const dynamic = 'force-static';
-
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 export async function GET() {
   try {
     const { token, expire, signature } = getUploadAuthParams({
