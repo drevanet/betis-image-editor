@@ -119,9 +119,8 @@ export default function CreatePage() {
       const result = await upload({
         file,
         fileName: file.name,
-        
+        folder: "/betis-image-editor",
         ...authParams,
-        useUniqueFileName: true 
       });
 
       const uploadedData = {
@@ -160,7 +159,7 @@ export default function CreatePage() {
 
       toast.success("Upload successful!");
     } catch (error) {
-      toast.error("Upload succesful");
+      toast.error("Upload failed");
       console.error(error);
     } finally {
       setIsUploading(false);
@@ -234,14 +233,14 @@ export default function CreatePage() {
       setTimeout(() => {
         setIsProcessing(false);
         toast.success(
-          `Background removed successfully! `,
+          `Background removed! ${creditResult.remainingCredits} credits remaining.`,
         );
         // Refresh to update sidebar credits display
         router.refresh();
       }, 3000);
     } catch (error) {
       console.error("Background removal error:", error);
-      toast.error("Failed to remove background, Please Ugprade your subscription");
+      toast.error("Failed to remove background");
       setIsProcessing(false);
     }
   };
@@ -273,14 +272,14 @@ export default function CreatePage() {
       setTimeout(() => {
         setIsProcessing(false);
         toast.success(
-          `Image upscaled successfully!`,
+          `Image upscaled! ${creditResult.remainingCredits} credits remaining.`,
         );
         // Refresh to update sidebar credits display
         router.refresh();
       }, 3000);
     } catch (error) {
       console.error("Upscaling error:", error);
-      toast.error("Failed to upscale image, Please Ugprade your subscription");
+      toast.error("Failed to upscale image");
       setIsProcessing(false);
     }
   };
@@ -315,7 +314,7 @@ export default function CreatePage() {
       }, 3000);
     } catch (error) {
       console.error("Object crop error:", error);
-      toast.error("Failed to apply smart crop, Please Ugprade your subscription");
+      toast.error("Failed to apply smart crop");
       setIsProcessing(false);
     }
   };
@@ -363,10 +362,10 @@ export default function CreatePage() {
           <div className="border-b border-gray-200 bg-white py-2">
             <div className="mx-auto max-w-7xl text-center">
               <h1 className="from-primary to-primary/70 mb-1 bg-gradient-to-r bg-clip-text text-lg font-bold text-transparent">
-                Edit high quality images
+                Create AI Images
               </h1>
               <p className="text-muted-foreground mx-auto max-w-xl text-xs">
-                Upload and transform images with Betis Image Editor tools
+                Upload and transform images with AI tools
               </p>
             </div>
           </div>
@@ -395,7 +394,7 @@ export default function CreatePage() {
                           Uploading your image
                         </h3>
                         <p className="text-muted-foreground text-sm">
-                          Processing your file with Betis Editor magic ✨
+                          Processing your file with AI magic ✨
                         </p>
                         <div className="bg-muted mx-auto mt-4 h-2 w-48 overflow-hidden rounded-full">
                           <div className="bg-primary h-full animate-pulse rounded-full"></div>
@@ -428,7 +427,7 @@ export default function CreatePage() {
 
                         <p className="mx-auto mb-6 max-w-md text-sm leading-relaxed text-gray-600">
                           Click to browse and select your image. Transform it
-                          with powerful Betis Image Editor tools.
+                          with powerful AI tools.
                         </p>
 
                         {/* Supported formats */}
@@ -487,7 +486,7 @@ export default function CreatePage() {
                       <div className="mb-3 flex items-start justify-between">
                         <div>
                           <h3 className="mb-0.5 text-sm font-bold">
-                            Betis Editor Effects
+                            AI Effects
                           </h3>
                           <p className="text-muted-foreground text-xs">
                             Transform your image
@@ -603,7 +602,7 @@ export default function CreatePage() {
 
                             <div className="rounded-md border border-green-200 bg-green-100/50 p-1.5">
                               <p className="text-xs text-green-800">
-                                ✨ Crop around specified object in 1:1 ratio
+                                ✨ AI crops around specified object in 1:1 ratio
                               </p>
                             </div>
 
@@ -897,7 +896,7 @@ export default function CreatePage() {
                 </h3>
                 <p className="text-muted-foreground mx-auto max-w-md text-lg leading-relaxed">
                   Start your creative journey by uploading your first image and
-                  transforming it with Betis Image Editor
+                  transforming it with AI
                 </p>
               </div>
             </div>
