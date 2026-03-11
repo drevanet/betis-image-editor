@@ -1,13 +1,12 @@
 import { getUploadAuthParams } from "@imagekit/next/server";
 import { env } from "~/env";
-export const dynamic = 'force-dynamic';
-export const revalidate = 0;
+
 export async function GET() {
   try {
     const { token, expire, signature } = getUploadAuthParams({
       privateKey: env.IMAGEKIT_PRIVATE_KEY,
       publicKey: env.IMAGEKIT_PUBLIC_KEY,
-      expire: 60, // Optional: 30 minutes expiry (default is 1 hour)
+      // expire: 30 * 60, // Optional: 30 minutes expiry (default is 1 hour)
     });
 
     return Response.json({
