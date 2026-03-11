@@ -100,7 +100,7 @@ export default function AuthLayout({ children }: { children: ReactNode }) {
                   <Sparkles className="h-6 w-6 text-white" />
                 </div>
                 <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-xl font-bold text-transparent">
-                  AI Image Editor
+                  Betis Image Editor
                 </span>
               </Link>
             </div>
