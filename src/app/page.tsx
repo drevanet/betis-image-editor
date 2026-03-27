@@ -21,7 +21,7 @@ export default function HomePage() {
       icon: <Scissors className="h-8 w-8" />,
       title: "Image Background Removal",
       description:
-        "Remove backgrounds instantly with advanced Betis Image Editor. Perfect for product photos and portraits.",
+        "Remove backgrounds instantly with advanced luminaspo. Perfect for product photos and portraits.",
       color: "text-emerald-600",
       bgColor: "bg-emerald-100",
     },
@@ -95,7 +95,7 @@ export default function HomePage() {
                 <Sparkles className="h-5 w-5 text-white" />
               </div>
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-xl font-bold text-transparent">
-                Betis Image Editor
+                luminaspo
               </span>
             </div>
 
@@ -144,19 +144,19 @@ export default function HomePage() {
             <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-blue-200/60 bg-blue-100/30 px-4 py-2 text-sm">
               <Sparkles className="h-4 w-4 text-blue-600" />
               <span className="font-medium text-blue-700">
-                Powered by Betis Edits
+                Powered by luminaspo
               </span>
             </div>
 
             <h1 className="mb-6 text-4xl font-bold tracking-tight text-slate-800 sm:text-6xl">
               Transform Images with{" "}
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                Betis Image Editor
+                luminaspo
               </span>
             </h1>
 
             <p className="mx-auto mb-10 max-w-2xl text-lg text-slate-600 sm:text-xl">
-              Professional image editing powered by Betis Image Editor.
+              Professional image editing powered by luminaspo.
               Remove backgrounds, upscale images, and crop with precision - all
               in seconds.
             </p>
@@ -216,7 +216,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto mb-16 max-w-2xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-slate-800 sm:text-4xl">
-              Powerful Betis Image Editing Tools at Your{" "}
+              Powerful luminaspo Editing Tool at Your{" "}
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                 Fingertips
               </span>
@@ -316,7 +316,7 @@ export default function HomePage() {
               </span>
             </h2>
             <p className="mt-4 text-lg text-slate-600">
-              See what our users are saying about Betis Image Editor
+              See what our users are saying about luminaspo
             </p>
           </div>
 
@@ -467,12 +467,12 @@ export default function HomePage() {
                     <Sparkles className="h-5 w-5 text-white" />
                   </div>
                   <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-xl font-bold text-transparent">
-                    Betis Image Editor
+                   luminaspo
                   </span>
                 </div>
                 <p className="max-w-md text-slate-600">
-                  Professional image editing powered by artificial intelligence.
-                  Transform your images with cutting-edge AI technology.
+                  Professional image editing powered by Luminaspo.
+                  Transform your images with cutting-edge Image editing technology.
                 </p>
               </div>
 
@@ -538,7 +538,7 @@ export default function HomePage() {
             </div>
 
             <div className="mt-16 border-t border-slate-200 pt-8 text-center text-sm text-slate-500">
-              <p>&copy; 2024 Betis Image Editor. All rights reserved.</p>
+              <p>&copy; 2025 Luminsapo. All rights reserved.</p>
             </div>
           </div>
         </div>
