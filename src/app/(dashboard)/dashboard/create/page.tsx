@@ -362,10 +362,10 @@ export default function CreatePage() {
           <div className="border-b border-gray-200 bg-white py-2">
             <div className="mx-auto max-w-7xl text-center">
               <h1 className="from-primary to-primary/70 mb-1 bg-gradient-to-r bg-clip-text text-lg font-bold text-transparent">
-                Create Betis Editor Images
+                Create Luminaspo Images
               </h1>
               <p className="text-muted-foreground mx-auto max-w-xl text-xs">
-                Upload and transform images with Betis Image Editor tools
+                Upload and transform images with Luminaspo
               </p>
             </div>
           </div>
@@ -394,7 +394,7 @@ export default function CreatePage() {
                           Uploading your image
                         </h3>
                         <p className="text-muted-foreground text-sm">
-                          Processing your file with Betis Image Editor magic ✨
+                          Processing your file with Luminsapo ✨
                         </p>
                         <div className="bg-muted mx-auto mt-4 h-2 w-48 overflow-hidden rounded-full">
                           <div className="bg-primary h-full animate-pulse rounded-full"></div>
@@ -427,7 +427,7 @@ export default function CreatePage() {
 
                         <p className="mx-auto mb-6 max-w-md text-sm leading-relaxed text-gray-600">
                           Click to browse and select your image. Transform it
-                          with powerful Betis Image Editor tools.
+                          with Luminaspo.
                         </p>
 
                         {/* Supported formats */}
@@ -486,7 +486,7 @@ export default function CreatePage() {
                       <div className="mb-3 flex items-start justify-between">
                         <div>
                           <h3 className="mb-0.5 text-sm font-bold">
-                            Betis Editor Effects
+                            Luminsapo editing effect
                           </h3>
                           <p className="text-muted-foreground text-xs">
                             Transform your image
@@ -896,7 +896,7 @@ export default function CreatePage() {
                 </h3>
                 <p className="text-muted-foreground mx-auto max-w-md text-lg leading-relaxed">
                   Start your creative journey by uploading your first image and
-                  transforming it with Betis Image Editor
+                  transforming it with Luminsapo
                 </p>
               </div>
             </div>
