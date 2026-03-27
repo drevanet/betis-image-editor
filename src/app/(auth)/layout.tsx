@@ -17,7 +17,7 @@ export default function AuthLayout({ children }: { children: ReactNode }) {
                 <Sparkles className="h-7 w-7 text-blue-300" />
               </div>
               <span className="text-2xl font-bold text-blue-50">
-                Betis Image Editor
+                Luminaspo
               </span>
             </Link>
 
@@ -25,10 +25,10 @@ export default function AuthLayout({ children }: { children: ReactNode }) {
             <div className="max-w-md">
               <h1 className="mb-6 text-4xl leading-tight font-bold text-blue-50 xl:text-5xl">
                 Transform Images with{" "}
-                <span className="text-blue-200">Betis Image Editor</span>
+                <span className="text-blue-200">Luminaspo</span>
               </h1>
               <p className="mb-8 text-lg leading-relaxed text-blue-100/90">
-                Join thousands of creators using advanced betis image editor to edit, enhance,
+                Join thousands of creators using Luminsapo to enhance
                 and perfect their images in seconds.
               </p>
 
@@ -100,7 +100,7 @@ export default function AuthLayout({ children }: { children: ReactNode }) {
                   <Sparkles className="h-6 w-6 text-white" />
                 </div>
                 <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-xl font-bold text-transparent">
-                  Betis Image Editor
+                  Luminaspo
                 </span>
               </Link>
             </div>
