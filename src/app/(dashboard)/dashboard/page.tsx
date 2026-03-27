@@ -112,7 +112,7 @@ export default function DashboardPage() {
               Welcome back{user?.name ? `, ${user.name}` : ""}!
             </h1>
             <p className="text-muted-foreground text-base sm:text-lg">
-              Here&apos;s an overview of your Betis image editing workspace
+              Here&apos;s an overview of your Luminaspo editing workspace
             </p>
           </div>
 
@@ -204,7 +204,7 @@ export default function DashboardPage() {
                   <div className="text-center">
                     <div className="font-semibold">Create New Project</div>
                     <div className="text-xs opacity-80">
-                      Upload and edit images with AI
+                      Upload and edit images with Luminaspo
                     </div>
                   </div>
                 </Button>
