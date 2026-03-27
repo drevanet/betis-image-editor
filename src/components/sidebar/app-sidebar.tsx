@@ -27,11 +27,11 @@ export async function AppSidebar() {
             <Link href="/" className="mb-1 flex items-center gap-2">
               <Sparkles className="text-primary h-6 w-6" />
               <p className="from-primary to-primary/70 bg-gradient-to-r bg-clip-text text-2xl font-bold tracking-tight text-transparent">
-                Betis Image
+                Luminsapo
               </p>
             </Link>
             <p className="text-muted-foreground ml-8 text-sm font-medium tracking-wide">
-              Editor
+              
             </p>
           </SidebarGroupLabel>
           <SidebarGroupContent>
