@@ -29,13 +29,10 @@ export const auth = betterAuth({
         checkout({
           products: [
             {
-              productId: "92c24638-7f9a-45f5-822f-c3fbd0606073",
-              slug: "500 credits",
+              productId: "10d4b985-c429-453e-a38b-b80cfe8c89bd",
+              slug: "1000 credits",
             },
-            {
-              productId: "74a6d6f0-2901-4784-b807-1329429017d8",
-              slug: "unlimited",
-            },
+           
            
           ],
           successUrl: "/dashboard",
@@ -57,12 +54,10 @@ export const auth = betterAuth({
             let creditsToAdd = 0;
 
             switch (productId) {
-              case "92c24638-7f9a-45f5-822f-c3fbd0606073":
-                creditsToAdd = 500;
-                break;
-              case "74a6d6f0-2901-4784-b807-1329429017d8":
+              case "10d4b985-c429-453e-a38b-b80cfe8c89bd":
                 creditsToAdd = 1000;
                 break;
+           
            
             }
 
